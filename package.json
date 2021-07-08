@@ -1,0 +1,24 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Potfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leediamo/My-Portfolio.git"
+  },
+  "author": "Diamond Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leediamo/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/leediamo/My-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  }
+}

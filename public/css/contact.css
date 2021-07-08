@@ -1,0 +1,39 @@
+section{
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+#contact {
+    /* Nav "spacing" */
+  
+   min-height: 8vh;
+    /* Style */
+   font-family: futura-pt, sans-serif;
+   font-weight: 300;
+   font-style: normal;
+}
+
+.logo2 {
+    /* Font Color */
+   color: rgb(78, 140, 148);
+    /* Font Type */
+   font-family: futura-pt, sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 22px;
+   /* Typography Design */
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding-bottom: 20px;
+   
+   
+}
+.para{
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    color: rgb(45, 82, 87);
+    letter-spacing: 1px;
+    font-size: 17;
+}

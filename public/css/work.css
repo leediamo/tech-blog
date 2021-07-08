@@ -1,0 +1,60 @@
+#work {
+    /* Nav "spacing" */
+   
+   justify-content:center; 
+   align-items: center;
+   min-height: 8vh;
+    /* Style */
+   font-family: futura-pt, sans-serif;
+   font-weight: 300;
+   font-style: normal;
+}
+
+.logo1 {
+    /* Font Color */
+   color: rgb(78, 140, 148);
+    /* Font Type */
+   font-family: futura-pt, sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 22px;
+   /* Typography Design */
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding-bottom: 20px;
+   
+}
+
+.subheader-links{
+    display:flex;
+    justify-content:space-around; 
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.subheader-links li{
+    list-style: none;
+    }
+.subheader-links a{
+     text-decoration: none;
+    color: rgb(45, 82, 87);
+    letter-spacing: 1px;
+    font-size: 17;
+    }
+    
+    [data-tab-content] {
+        display: none;
+      }
+      
+      .active[data-tab-content] {
+        display: block;
+      }
+      .tab.active {
+        background-color: rgb(233, 232, 197);
+      }
+      
+      .tab:hover {
+        background-color: rgb(233, 232, 197);
+      }
+      

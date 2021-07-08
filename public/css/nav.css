@@ -1,0 +1,115 @@
+
+ /* Navigation Bar Only --------------------------------------------------*/
+nav{
+     /* Nav "spacing" */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+     /* Style */
+    background-color: cadetblue;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.logo{
+     /* Font Color */
+    color: rgb(255, 252, 240);
+     /* Font Type */
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    /* Typography Design */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width:30%;
+}
+/* remove bullet points */
+.nav-links li{
+list-style: none;
+}
+/* add style to content, undo the underline*/
+.nav-links a{
+    text-decoration: none;
+    color: cornsilk;
+    letter-spacing: 1px;
+    font-size: 17;
+}
+/* For Mobile view ----------- */
+.burger{
+    display:none;
+    cursor: pointer;
+}
+.burger div{
+width:25px;
+height:2px;
+background-color: cornsilk;;
+margin: 5px;
+transition: all 0.3s ease;
+}
+
+/* For Mobile view NavBar: Breakpoints---------- */
+
+/* for nav content as page shrinks */
+ @media screen and (max-width:1024px){
+    .nav-links{
+        display:flex;
+        justify-content: space-around;
+        width:30%;
+    }
+}
+/* for mobile nav bar */
+@media screen and (max-width:768px){
+    /* screen cannot scroll horizontally */
+    body{
+        overflow-x: hidden;
+    }
+.nav-links{
+    position: absolute;
+    right:0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: cadetblue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    /* moves content off the screen(hidden) */
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }   
+    /* undos display:none */
+    .burger{
+       display: block;
+    }
+}
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}/* For burber animation*/
+.toggle .line1 {
+transform: rotate(-45deg) translate(-5px,5px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px,-5px);
+}

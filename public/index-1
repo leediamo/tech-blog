@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/bai1rwx.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Diamond Lee</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Diamond Lee</h4>
+        </div>
+        <!--Nav Bar-->
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <!--Add dropdown list (Websites, Photos, Video)-->
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <!--Nav bar icon for mobile-->
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!--body-->
+    <div class="mainimg"></div>
+    <div>
+
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
