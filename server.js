@@ -35,6 +35,10 @@ app.get('/', (req, res) => {
     console.log("Page is here");
     res.render('main', { layout: 'index' });
 });
+app.get('/login', (req, res) => {
+    console.log("Login");
+    res.render('login', { layout: 'login' });
+});
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
